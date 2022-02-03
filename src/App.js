@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +17,25 @@ function App() {
         >
           Learn React
         </a>
+        <p>AAAAA</p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#000" }}
+        ></p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#eee" }}
+        ></p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#000" }}
+        ></p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#eee" }}
+        ></p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#000" }}
+        ></p>
+        <p
+          style={{ width: "100px", height: "100px", background: "#eee" }}
+        ></p>
       </header>
     </div>
   );
