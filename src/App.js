@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
-import DarkreaderSwitch from "./DarkreaderSwitch";
+// import DarkreaderSwitch from "./DarkreaderSwitch";
+import DarkreaderSwitch2 from "./DarkreaderSwitch2"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <DarkreaderSwitch />
+      {/* <DarkreaderSwitch /> */}
+      <DarkreaderSwitch2 />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
