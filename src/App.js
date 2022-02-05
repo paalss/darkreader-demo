@@ -1,14 +1,17 @@
 import logo from "./logo.svg";
+import DarkreaderSwitch from "./DarkreaderSwitch";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <DarkreaderSwitch />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <a href="https://react-darkreader.vercel.app/">https://react-darkreader.vercel.app/</a>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,25 +21,14 @@ function App() {
           Learn React
         </a>
         <p>AAAAA</p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#000" }}
-        ></p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#eee" }}
-        ></p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#000" }}
-        ></p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#eee" }}
-        ></p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#000" }}
-        ></p>
-        <p
-          style={{ width: "100px", height: "100px", background: "#eee" }}
-        ></p>
+        <p style={{ width: "100px", height: "100px", background: "#000" }}></p>
+        <p style={{ width: "100px", height: "100px", background: "#eee" }}></p>
+        <p style={{ width: "100px", height: "100px", background: "#000" }}></p>
+        <p style={{ width: "100px", height: "100px", background: "#eee" }}></p>
+        <p style={{ width: "100px", height: "100px", background: "#000" }}></p>
+        <p style={{ width: "100px", height: "100px", background: "#eee" }}></p>
       </header>
+      
     </div>
   );
 }
