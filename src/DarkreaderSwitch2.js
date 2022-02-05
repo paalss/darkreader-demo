@@ -2,7 +2,9 @@ import React from "react";
 import { Switch, useDarkreader } from "react-darkreader";
 
 const DarkreaderSwitch2 = () => {
-  const [isDark, { toggle }] = useDarkreader(false);
+  const isDarkDefault = localStorage.getItem("isDark") === "true" ? true : false
+  const [isDark, { toggle }] = useDarkreader(isDarkDefault);
+  localStorage.setItem("isDark", isDark);
 
   return <Switch checked={isDark} onChange={toggle} />;
 };
