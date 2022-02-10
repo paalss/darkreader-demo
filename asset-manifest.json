@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/darkreader-demo/static/css/main.45ff40bc.css",
+    "main.js": "/darkreader-demo/static/js/main.fc2f63fe.js",
+    "static/js/787.e7f2298c.chunk.js": "/darkreader-demo/static/js/787.e7f2298c.chunk.js",
+    "static/media/logo.svg": "/darkreader-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/darkreader-demo/index.html",
+    "main.45ff40bc.css.map": "/darkreader-demo/static/css/main.45ff40bc.css.map",
+    "main.fc2f63fe.js.map": "/darkreader-demo/static/js/main.fc2f63fe.js.map",
+    "787.e7f2298c.chunk.js.map": "/darkreader-demo/static/js/787.e7f2298c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ff40bc.css",
+    "static/js/main.fc2f63fe.js"
+  ]
+}
